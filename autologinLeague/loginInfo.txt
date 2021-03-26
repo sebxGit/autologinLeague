@@ -1,1 +1,0 @@
-InGameName Username Password (delete this line upon entering account information)
