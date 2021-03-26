@@ -1,0 +1,63 @@
+Here are the instructions for using the League auto-login application.
+Use the step-to-step manual to proceed and use the examples in the bottom for help.
+Please use setup.py to change login speed or league client installation path.
+Sebx#1520      // "Login speed" refers to the time, the app
+༼ つ ◕_◕ ༽つ    //  gives for the league client to open
+
+IMPORTANT:
+If it's the first time opening client since starting the computer
+YOU HAVE TO OPEN THE CLIENT BEFORE STARTING THE AUTO-LOGIN APP.
+
+Step 1)
+Type in your login info into the loginInfo.txt file:
+inGameName Username Password    (inGameName is WITHOUT SPACES and 
+                                 put only 1 SPACEBAR between info)
+
+Step 2) (not needed if only one account is in loginInfo.txt)
+Choose an account either by typing:
+the index of the account (e.g. >> 1)
+the inGameName of the account (e.g. >> YoneNameIt)
+
+Step 3)
+Sit comfortably and see the league client login be 
+filled automatically and remember to have fun while
+playing League!  
+
+༼ つ ◕_◕ ༽つ 
+
+
+>-->- Examples --->-->---->-->
+
+
+loginInfo.txt insert example
+---------------------------------------------
+[inGameName] [Username] [Password]
+YoneNameIt Sebinator245 494fDjn5    
+notice: 
+  inGameName has to be WITHOUT SPACES
+  only put ONE WHITESPACE between the info
+---------------------------------------------
+
+
+(ᵔᴥᵔ)
+
+index example
+------------------
+0 SebxDk
+1 TopBanhBaoEuw
+2 YoneNameIt
+
+>> 1 (press enter)
+------------------
+
+
+~(˘▾˘~)
+
+inGameName example
+------------------
+0 SebxDk
+1 TopBanhBaoEuw
+2 YoneNameIt
+
+>> YoneNameIt (press enter)
+------------------
