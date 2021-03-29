@@ -25,7 +25,7 @@ def chooseAccount():
     # prints first element of text string (in-game name)
     for count, line in enumerate(Lines):
       accountName = line.split()[0]
-      print(count + 1, accountName)
+      print(count, accountName)
       accountCount += 1
 
     if(accountCount == 0):
@@ -50,7 +50,7 @@ def chooseAccount():
       userInput = input(">> ")
       if userInput.isnumeric():
         userInput = int(userInput)
-        if userInput >= 0 and userInput < count + 1:
+        if userInput >= 0 and userInput <= count:
           print("A valid account was chosen.")
           for count, line in enumerate(Lines):
             if count == userInput:
@@ -96,7 +96,7 @@ def openClient():
         sys.exit("Your operating system is not supported for this application")
     clientPath = data['client path']
 
-  # updates file path in config.json
+  # ups file path in config.json
   with open('resources/config.json', 'w') as fp:
     json.dump(data, fp, indent=4)
 
@@ -117,7 +117,6 @@ def process_exists(process_name):
 # waits until app is opened
 def waitAppOpened():
   processName = ""
-  today = datetime.datetime.now()
   loginSpeed = 2
 
   with open('resources/config.json', 'r') as fp:
